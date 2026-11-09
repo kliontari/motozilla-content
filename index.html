@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Оновлені сторінки MotoZilla</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500;600;700&family=Wix+Madefor+Text:wght@400;500;600&display=swap">
+<style>
+/* Layout: one narrow column — legend strip, then four page tiles in a 2×2 grid that stacks on phones */
+:root{
+  --bg:#ffffff; --surface:#f4f5f7; --fg:#1a141f; --muted:#5d5f73; --line:#e1e3e8;
+  --accent:#e80000; --link:#005fc6; --mark:#fff1b8; --rec-bg:#e0f2ff; --rec-fg:#005fc6; --dark:#000e1f; --on-dark:#ffffff;
+  --display:"Wix Madefor Display", "Segoe UI", system-ui, sans-serif;
+  --text:"Wix Madefor Text", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0d1117; --surface:#161c25; --fg:#eef0f4; --muted:#a3a8b8; --line:#283040;
+  --accent:#ff4d4d; --link:#6cb4ff; --mark:#5c4a00; --rec-bg:#12304f; --rec-fg:#9ccfff; --dark:#eef0f4; --on-dark:#0d1117; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0d1117; --surface:#161c25; --fg:#eef0f4; --muted:#a3a8b8; --line:#283040;
+  --accent:#ff4d4d; --link:#6cb4ff; --mark:#5c4a00; --rec-bg:#12304f; --rec-fg:#9ccfff; --dark:#eef0f4; --on-dark:#0d1117; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 var(--text)}
+.wrap{max-width:980px;margin:0 auto;padding-block:40px 64px;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));display:grid;gap:28px}
+.brand{display:flex;align-items:center;gap:10px;font:600 13px/1 var(--display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.brand i{width:10px;height:10px;border-radius:2px;background:var(--accent);display:block}
+h1{font:700 clamp(28px,5vw,40px)/1.15 var(--display);margin:0;text-wrap:balance}
+.lead{margin:0;max-width:62ch;color:var(--muted);font-size:17px}
+.legend{display:flex;flex-wrap:wrap;gap:10px 24px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--muted)}
+.legend span{display:flex;align-items:center;gap:8px}
+mark{background:var(--mark);color:var(--fg);border-radius:4px;padding:0 4px}
+.rec{background:var(--rec-bg);color:var(--rec-fg);border-radius:999px;padding:1px 8px;font-size:12px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (max-width:640px){.grid{grid-template-columns:1fr}}
+.tile{display:grid;gap:12px;align-content:start;padding:22px;border-radius:16px;background:var(--surface);color:inherit;text-decoration:none;border:1px solid transparent;transition:border-color .2s}
+.tile:hover,.tile:focus-visible{border-color:var(--link);outline:none}
+.tile__top{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.tile h2{font:700 21px/1.25 var(--display);margin:0}
+.tile__file{font:500 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted);white-space:nowrap}
+.tile ul{margin:0;padding-left:18px;display:grid;gap:4px;font-size:15px}
+.tile__go{font:600 15px/1 var(--display);color:var(--link)}
+.foot{font-size:14px;color:var(--muted);margin:0;max-width:70ch}
+@media (prefers-reduced-motion: reduce){.tile{transition:none}}
+</style>
+
+<style>body{margin:0}</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="brand"><i></i>MotoZilla · робоча копія макета</div>
+  <h1>Оновлені сторінки: доставка, контакти, акції</h1>
+  <p class="lead">Копія тестової верстки з новим контентом замість заглушок. Шапка, меню, футер і стилі — з макету; змінено лише основні блоки сторінок, meta title і description.</p>
+
+  <div class="legend">
+    <span><mark>[14:00]</mark> дані, які треба підтвердити</span>
+    <span><span class="rec">рекомендовано</span> пропозиції додати</span>
+  </div>
+
+  <div class="grid">
+    <a class="tile" href="delivery-and-payment.html">
+      <div class="tile__top"><h2>Доставка і оплата</h2><span class="tile__file">delivery-and-payment.html</span></div>
+      <ul>
+        <li>Три способи Нової Пошти з цінами й строками</li>
+        <li>Три способи оплати з комісією на кожній картці</li>
+        <li>«Як отримати замовлення» у 4 кроки та FAQ</li>
+      </ul>
+      <span class="tile__go">Відкрити сторінку →</span>
+    </a>
+    <a class="tile" href="contacts.html">
+      <div class="tile__top"><h2>Контакти</h2><span class="tile__file">contacts.html</span></div>
+      <ul>
+        <li>Пропозиція: Telegram і Viber першими, блок підбору запчастини</li>
+        <li>Пошта за темами, форма зворотного зв'язку</li>
+        <li>Чесні переваги та реквізити продавця</li>
+      </ul>
+      <span class="tile__go">Відкрити сторінку →</span>
+    </a>
+    <a class="tile" href="sales.html">
+      <div class="tile__top"><h2>Акції</h2><span class="tile__file">sales.html</span></div>
+      <ul>
+        <li>Вкладки «Активні / Завершені» і фільтр категорій</li>
+        <li>Заголовки з розміром знижки та бейджами</li>
+        <li>Постійний банер кешбеку, порожній стан</li>
+      </ul>
+      <span class="tile__go">Відкрити сторінку →</span>
+    </a>
+    <a class="tile" href="sale-page.html">
+      <div class="tile__top"><h2>Сторінка акції</h2><span class="tile__file">sale-page.html</span></div>
+      <ul>
+        <li>Період, механіка, що входить в акцію</li>
+        <li>Блок «Умови акції» з організатором</li>
+        <li>Каталог товарів-учасників з макету</li>
+      </ul>
+      <span class="tile__go">Відкрити сторінку →</span>
+    </a>
+  </div>
+
+  <p class="foot">Інші посилання в шапці й футері ведуть на сторінки, яких немає в цій копії. Форма на «Контактах» лише показує стан після відправлення й нікуди не надсилає дані.</p>
+</main>
+
+</body>
+</html>
